@@ -18,3 +18,8 @@ jobs:
       env:
         CI: true
         DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
+        COOKIE_NAME=session
+JWT_SECRET=secret
+CLIENT_ID=
+CLIENT_SECRET=
+REDIRECT_URI=http://localhost:7890/api/v1/github/login/callback
