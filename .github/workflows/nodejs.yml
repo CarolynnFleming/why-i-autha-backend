@@ -20,6 +20,6 @@ jobs:
         DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
         COOKIE_NAME=session
 JWT_SECRET=secret
-CLIENT_ID=
-CLIENT_SECRET=
+CLIENT_ID=0e0cf29b3f3366a8a649
+CLIENT_SECRET=a61a784272927760a627e9d4a7566aba10ca354b
 REDIRECT_URI=http://localhost:7890/api/v1/github/login/callback
